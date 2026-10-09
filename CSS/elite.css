@@ -1,0 +1,27 @@
+* {
+  font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+.elite1 h1{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 50px;
+    text-align: center;
+}
+
+.elite1 li{
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.elite1 h4{
+    text-align: center;
+    color: white;
+}
+
+
+
+.container p{
+    color: white;
+}
