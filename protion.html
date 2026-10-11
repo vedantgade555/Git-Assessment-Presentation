@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymX | Proteins</title>
+  <link rel="stylesheet" href="CSS/protien.css">
+</head>
+<body>
+
+  <section class="filter-section">
+    <button class="filter-btn active" onclick="filterItems('all')">All</button>
+    <button class="filter-btn" onclick="filterItems('whey')">Whey Protein</button>
+    <button class="filter-btn" onclick="filterItems('mass')">Mass Gainer</button>
+    <button class="filter-btn" onclick="filterItems('bcaa')">BCAA</button>
+    <button class="filter-btn" onclick="filterItems('preworkout')">Pre-Workout</button>
+    <button class="filter-btn" onclick="filterItems('creatine')">Creatine</button>
+  </section>
+
+
+  <section class="equipment-section">
+    <h2>Premium Protein & Supplements</h2>
+    <div class="equipment-grid">
+
+  
+      <div class="equipment-card whey">
+        <img class="img1" src="Images/protein image/protein4.jpeg" alt="Whey Protein">
+        <div class="equipment-content">
+          <h3>Whey Protein Isolate</h3>
+          <p>Fast-digesting protein to fuel muscle recovery.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card whey">
+        <img class="img1" src="Images/protein image/protein 7.jpg" alt="Whey Chocolate">
+        <div class="equipment-content">
+          <h3>Chocolate Whey Protein</h3>
+          <p>Delicious chocolate flavor packed with protein.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card mass">
+        <img class="img1" src="Images/protein image/protein 8.jpg" alt="Mass Gainer">
+        <div class="equipment-content">
+          <h3>Mass Gainer</h3>
+          <p>High-calorie supplement to support weight gain and muscle growth.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card mass">
+        <img class="img1" src="Images/protein image/protein 9.jpg" alt="Mass Gainer Extreme">
+        <div class="equipment-content">
+          <h3>Extreme Mass Gainer</h3>
+          <p>Boost muscle size with a rich blend of carbs and protein.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card bcaa">
+        <img class="img1" src="Images/protein image/protein5.jpg" alt="BCAA">
+        <div class="equipment-content">
+          <h3>BCAA Supplement</h3>
+          <p>Improve endurance and reduce muscle fatigue during workouts.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card preworkout">
+        <img class="img1" src="Images/protein image/protein3.jpeg" alt="Pre-Workout">
+        <div class="equipment-content">
+          <h3>Pre-Workout Energy</h3>
+          <p>Boost your focus, strength, and stamina before every session.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card creatine">
+        <img class="img1" src="Images/protein image/protein2.jpeg" alt="Creatine">
+        <div class="equipment-content">
+          <h3>Creatine Monohydrate</h3>
+          <p>Enhance strength and performance with pure creatine.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card creatine">
+      <div  class="img1">  <img src="Images/protein image/protein1.jpeg" alt="Micronized Creatine"></div>
+        <div class="equipment-content">
+          <h3>Micronized Creatine</h3>
+          <p>Faster absorption and better results for strength training.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script>
+    function filterItems(category) {
+      let items = document.querySelectorAll('.equipment-card');
+      let buttons = document.querySelectorAll('.filter-btn');
+
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
