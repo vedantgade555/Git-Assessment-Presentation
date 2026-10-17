@@ -1,0 +1,169 @@
+* {
+  font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+
+
+body {
+  background-image: url("/backgroundImages/blue.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+
+#title {
+  text-align: center;
+  font-weight: bold;
+  /* background-color: ; */
+  /* font-size: 1rem; */
+  color: white;
+  font-size: 30px;
+  /* background: linear-gradient(to right,rgb(17, 13, 21),rgb(18,176,204),rgb(232, 7, 217));
+  background-clip:text;
+  -webkit-text-fill-color: transparent; */
+
+}
+
+
+
+h1.card-title,.fitpass {
+  color: white;
+  padding-bottom: 10px;
+  font-size:40px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+
+
+
+.fit-pass-section .card {
+  background-color: transparent !important;
+  border: none;
+  /* box-shadow: 5px 5px 5px rgb(240, 3, 216); */
+  border-radius: 40px;
+  
+}
+
+.fit-pass-section{
+  background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aliceblue; */
+}
+.fit-pass-section .card img{
+  border-radius: 20px;
+}
+
+
+
+/* This style used to become navbar sticky and its background color dark */
+
+header{
+  position: sticky;
+  top:0;             /* sticks at the top */
+  z-index: 1020;      /* makes sure it stays above other content */
+  background-color:  #0b0c0d;
+}
+/* This will be used to given white color to our navbar */
+li.nav-item{
+  color: white;
+}
+
+
+.navbar .nl{
+  color: white;
+  font-size: 2rem;
+ 
+}
+
+.navbar .nl:hover{
+  background: linear-gradient(to right,rgb(39, 46, 49),rgb(18,176,204),rgb(199,35,103));
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+
+}
+    
+
+
+.card-body{
+  text-align: center;
+  background: linear-gradient(to right,rgb(180, 150, 150),rgb(132, 11, 193),rgb(7, 168, 193),rgb(184, 22, 22),rgb(255, 255, 255));
+  background-clip:text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.fpc{
+  /* background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #0b0c0d;
+  /* border-radius: 20px; */
+  border: none;
+}
+
+.card {
+  transition: transform 0.7s ease-in-out; /* Smooth animation for scaling */
+}
+
+.card:hover {
+  transform: scale(1.05);                /* Slight zoom on hover */
+  z-index: 10;                           /* Brings the card above others */
+  box-shadow: 5px 5px 5px skyblue;       /* Adds a sky-blue shadow */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 5px 5px 5px rgba(0, 191, 255, 0.5) !important;
+}
+
+
+
+.card{
+  border-radius: 5px;
+}
+
+
+
+footer{
+  background-color: #111213;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+/* Image Overlap */
+
+
+
+
+
+.container.fp-back{
+   background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+img {
+  transition: transform 0.7s ease-in-out; /* Smooth animation for scaling */
+}
+
+.ia img:hover{
+  /* box-shadow: 5px 5px 5px skyblue; */
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+

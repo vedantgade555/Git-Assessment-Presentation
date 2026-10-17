@@ -1,0 +1,162 @@
+*{
+  font-size: 'Gill Sans','Gill Sana MT',Calibri,'Trebuchet MS',sans-serif;
+}
+body{
+  /* background-color: #050303; */
+  background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+header {
+    width: 100%;
+    overflow: visible;
+}
+
+
+}
+
+.nav2 .nav-link {
+    color: white; 
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link:hover{
+  background: linear-gradient(to right,rgb(39, 46, 49),rgb(18,176,204),rgb(199,35,103));
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.navbar .nl1{
+  color: white;
+  font-size: 2rem;
+  padding-left: 5px;
+}
+
+
+
+
+.nav2 .nav-link {
+    color: white; 
+    font-weight: 900;
+    font-size: 1.5rem;
+    /* background-color: #0b0c0d; */
+}
+
+.nav2{
+  background-color:  #0b0c0d;  
+}
+
+header{
+  position: sticky;
+  top:0;             /* sticks at the top */
+  z-index: 1020;      /* makes sure it stays above other content */
+  background-color:  #0b0c0d;
+}
+
+
+h1.card-title,.fitpass {
+  color: white;
+  padding-bottom: 80px;
+  font-size: 90px;
+  text-align: center;
+}
+
+h4.card-head{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+
+
+
+.fit-pass-section .card {
+  background-color: transparent !important;
+  border: none;
+  /* box-shadow: 5px 5px 5px rgb(240, 3, 216); */
+  border-radius: 40px;
+  
+}
+
+.fit-pass-section{
+  background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aliceblue; */
+}
+.fit-pass-section .card img{
+  border-radius: 20px;
+}
+
+
+.card-body{
+  text-align: center;
+  background: linear-gradient(to right,rgb(180, 150, 150),rgb(132, 11, 193),rgb(7, 168, 193),rgb(184, 22, 22),rgb(255, 255, 255));
+  background-clip:text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.fpc{
+  /* background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #0b0c0d;
+  /* border-radius: 20px; */
+  border: none;
+}
+
+.card {
+  transition: transform 0.7s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
+
+footer{
+  background-color: #111213;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.diet img{
+  padding-top: 3rem;
+  border-radius: 30px;
+  padding-bottom: 3rem;
+}
+
+
+footer{
+  background-color: #111213;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.main-footer{
+  background-color: #0b0c0d;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
